@@ -41,3 +41,41 @@ header nav ul li a {
   font-size: 1.75vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+.side-title {
+  display: flex;
+  flex: 25%;
+}
+.side-title h2 {
+  font-size: 32px;
+  text-align: right;
+}
+.about-me {
+  display: flex;
+  flex: 66%;
+  justify-content: center;
+}
+.projects {
+  display: flex;
+  flex: 66%;
+  justify-content: center;
+  border: hotpink 3px solid;
+}
+.project {
+  display: flex;
+  flex: 66%;
+  justify-content: space-around;
+  position: relative;
+  border: hotpink 3px solid;
+}
+.project img {
+  max-width: 22vw;
+}
+.project-title {
+  position: absolute;
+  top: -48px;
+}
+.language {
+  position: absolute;
+  top: -28px;
+}
