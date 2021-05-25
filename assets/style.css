@@ -82,3 +82,32 @@ header nav ul li a {
   flex-wrap: wrap;
   padding: 0 10px;
 }
+.footer {
+  display: flex;
+}
+footer nav {
+  display: flex;
+}
+footer a {
+  text-decoration: none;
+  color: red;
+}
+
+footer nav {
+  margin: 20px 20px;
+}
+
+footer nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+footer nav ul li a {
+  padding: 300px 15px;
+  font-weight: lighter;
+  font-size: 1.75vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
