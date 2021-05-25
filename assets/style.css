@@ -44,7 +44,7 @@ header nav ul li a {
   font-size: 1.75vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.about {
+.flexContainer {
   display: flex;
 }
 .side-title {
@@ -60,7 +60,7 @@ header nav ul li a {
   text-align: right;
   padding: 0 10px;
 }
-.about-me {
+.column2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -82,9 +82,44 @@ header nav ul li a {
   flex-wrap: wrap;
   padding: 0 10px;
 }
-.footer {
+
+.big {
   display: flex;
+  position: relative;
+  justify-content: center;
+  flex-basis: 88%;
+  opacity: 0.5;
+  margin: 10px 10px;
+  border: indigo solid 3px;
 }
+
+.small {
+  display: flex;
+  justify-content: center;
+  flex-basis: 43%;
+  position: relative;
+  border: solid indigo 3px;
+  margin: 10px 10px;
+  opacity: 0.5;
+}
+.big img,
+.small img {
+  width: 100%;
+}
+.big:hover,
+.small:hover {
+  opacity: 1;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 48px;
+  left: 0px;
+  background-color: lightblue;
+  font-size: 1vw;
+}
+
 footer nav {
   display: flex;
 }
