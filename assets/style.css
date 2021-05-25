@@ -146,3 +146,43 @@ footer nav ul li a {
   font-size: 1.75vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+@media screen and (max-width: 768px) {
+  .flexContainer {
+    flex-wrap: wrap;
+  }
+  .side-title {
+    flex: 0 100%;
+
+    border-right: none;
+    justify-content: center;
+    margin: 20px 5px;
+  }
+  .side-title h2 {
+    font-size: 22px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: indigo 3px solid;
+  }
+  .column2 {
+    flex: 0 100%;
+  }
+  .img {
+    flex: 0 90%;
+  }
+  .para {
+    padding: 10px 10px;
+  }
+  .text {
+    font-size: 2.75vw;
+  }
+}
+@media screen and (max-width: 575px) {
+  .small {
+    flex: 0 59%;
+    opacity: 1;
+  }
+  .big {
+    opacity: 1;
+  }
+}
