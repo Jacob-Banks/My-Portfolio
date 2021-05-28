@@ -205,43 +205,94 @@ footer img {
 /*  not sure why phone looks bigger */
 
 /* footer ends */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+  /* remove the 2 column layout from header */
+  .h1 {
+    flex: 0 100%;
+    border-right: none;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  /* switch to verticle layout */
+  .next {
+    flex-direction: column;
+    flex: 0 100%;
+  }
+  header nav {
+    justify-content: center;
+  }
+  header nav ul {
+    flex-direction: row;
+    padding-bottom: 50px;
+    margin: 0;
+  }
+  .img {
+    flex: 0 90%;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 55px;
+  }
+  #mainphoto {
+    margin: 10px 0;
+  }
+  /* make nav more readable */
+  header nav ul li a {
+    font-size: 2vw;
+  }
+  /* ditch 2 column layout for everywhere else  */
   .flexContainer {
     flex-wrap: wrap;
   }
   .side-title {
     flex: 0 100%;
-
     border-right: none;
     justify-content: center;
-    margin: 20px 5px;
+    margin: 20px 0;
   }
+  /* move headers to middle make the border be under rather then --> right  */
   .side-title h2 {
     font-size: 22px;
     justify-content: center;
     text-align: center;
-    padding: 10px 0;
-    border-bottom: indigo 3px solid;
+    padding: 5px 0;
+    border-bottom: var(--primary-color) 3px solid;
   }
+  /* more removeing of 2 column layout */
   .column2 {
     flex: 0 100%;
   }
-  .img {
-    flex: 0 90%;
-  }
+
   .para {
     padding: 10px 10px;
   }
+  /* make captions a bit bigger */
   .text {
-    font-size: 2.75vw;
+    font-size: 1.75vw;
+  }
+
+  footer nav li {
+    padding: 0 20px;
   }
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 768px) {
+  /* make nav more readable */
+  header nav ul li a {
+    font-size: 2.5vw;
+  }
+  /* highlight projects and make small a bit bigger  */
   .small {
     flex: 0 59%;
     opacity: 1;
   }
   .big {
     opacity: 1;
+  }
+  /* footer images were to small */
+  footer img {
+    max-width: 7.5vw;
+  }
+
+  footer nav li {
+    padding: 0 10px;
   }
 }
