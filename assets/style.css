@@ -3,50 +3,81 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  --primary-color: black;
+  --secondary-color: white;
+  --third-color: red;
+}
 html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: lightyellow;
+  background-color: lightgrey;
 }
-header {
-  padding: 20px 35px;
-  background-color: teal;
+/* header */
+.h1 {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  background-color: honeydew;
+  flex-basis: 16%;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding-right: 10px;
+  border-right: var(--secondary-color) 3px solid;
 }
-header h1 {
-  font-weight: bold;
-  margin: 0;
+.next {
+  display: flex;
+  flex-basis: 84%;
+  background-color: var(--primary-color);
+}
+.h1 h1 {
   font-size: 36px;
-  color: green;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: var(--secondary-color);
+  text-align: right;
+  text-shadow: 1px 1px 5px rgba(244, 244, 248);
+  font-weight: bold;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  flex-basis: 86%;
+  padding: 75px 0;
+}
+#mainphoto {
+  max-height: 20vw;
+  width: auto;
+  border-radius: 50%;
+  border: var(--secondary-color) solid 3px;
 }
 header a {
   text-decoration: none;
-  color: red;
+  color: var(--secondary-color);
 }
 
 header nav {
+  display: flex;
+  flex-basis: 3%;
   margin: 10px 0;
 }
 
 header nav ul {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
   list-style: none;
 }
 
 header nav ul li a {
-  padding: 10px 15px;
+  padding: 0 10px;
   font-weight: lighter;
   font-size: 1.75vw;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+header nav ul li a:hover {
+  transition: background-color 0.5s ease;
+  background-color: var(--third-color);
+}
+/* header end */
+
 .flexContainer {
   display: flex;
 }
@@ -70,14 +101,6 @@ header nav ul li a {
   align-items: center;
   flex-basis: 66%;
   margin: 20px 10px;
-}
-#mainphoto {
-  width: 100%;
-}
-.img {
-  display: flex;
-  flex-basis: 33%;
-  border: 3px lightgreen so;
 }
 .para {
   display: flex;
