@@ -126,6 +126,9 @@ h4::first-letter {
   font-weight: bold;
   color: var(--third-color);
 }
+/* projects start */
+
+/* main project prominance */
 .big {
   display: flex;
   position: relative;
@@ -133,35 +136,45 @@ h4::first-letter {
   flex-basis: 88%;
   opacity: 0.5;
   margin: 10px 10px;
-  border: indigo solid 3px;
+  border: var(--primary-color) solid 3px;
 }
-
+/* make sub projects smaller and in-line with maind borders */
 .small {
   display: flex;
   justify-content: center;
-  flex-basis: 43%;
+  flex-basis: 43.3%;
   position: relative;
-  border: solid indigo 3px;
+  border: solid var(--primary-color) 3px;
   margin: 10px 10px;
   opacity: 0.5;
 }
+
 .big img,
 .small img {
   width: 100%;
 }
+/* highlight project on hover  and change text colors*/
 .big:hover,
 .small:hover {
   opacity: 1;
 }
+.big:hover > .text,
+.small:hover > .text {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+/* place a caption on project */
 .text {
   display: flex;
   flex-direction: column;
   position: absolute;
-  bottom: 48px;
-  left: 0px;
-  background-color: lightblue;
+  top: 10%;
+  left: 10px;
+  padding: 5px 5px;
+  background-color: var(--third-color);
   font-size: 1vw;
 }
+/* projects style ends */
 
 footer nav {
   display: flex;
