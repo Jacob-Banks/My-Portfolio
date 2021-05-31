@@ -156,7 +156,7 @@ h4::first-letter {
 .small {
   display: flex;
   justify-content: center;
-  flex-basis: 43.2%;
+  flex-basis: 43.3%;
   position: relative;
   border: solid var(--primary-color) 3px;
   margin: 10px 10px;
