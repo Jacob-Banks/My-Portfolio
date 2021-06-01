@@ -274,7 +274,8 @@ footer img {
     flex: 0 100%;
   }
   /* move headers to middle make the border be under rather then --> right  */
-  .side-title h2 {
+  .side-title h2,
+  .side-title h4 {
     font-size: 22px;
     justify-content: center;
     text-align: center;
