@@ -1,8 +1,10 @@
+/* reset html style */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+/*  */
 :root {
   --primary-color: black;
   --secondary-color: white;
@@ -14,7 +16,8 @@ html {
 body {
   background-color: lightgrey;
 }
-/* header */
+/* start header */
+/* make the h1 verticly centered in the left column */
 .h1 {
   display: flex;
   flex-basis: 16%;
@@ -24,7 +27,7 @@ body {
   padding-right: 10px;
   border-right: var(--secondary-color) 3px solid;
 }
-.next {
+.header-container {
   display: flex;
   position: relative;
   flex-basis: 84%;
@@ -53,7 +56,7 @@ header a {
   text-decoration: none;
   color: var(--secondary-color);
 }
-
+/* make nav line-up with projects margin */
 header nav {
   display: flex;
   position: relative;
@@ -96,12 +99,13 @@ header nav ul li a:hover {
 .flexContainer {
   display: flex;
 }
+
 .side-title {
   display: flex;
   flex-basis: 16%;
   border-right: var(--primary-color) 3px solid;
   justify-content: flex-end;
-  margin: 10px 5px;
+  margin: 15px 5px;
 }
 
 .column2 {
@@ -110,7 +114,7 @@ header nav ul li a:hover {
   justify-content: center;
   align-items: center;
   flex-basis: 84%;
-  margin: 10px 10px;
+  margin: 15px 10px;
 }
 
 .side-title h2,
@@ -220,9 +224,9 @@ footer img {
   content: "(1) 343 202 6543";
   padding-right: 5px;
 }
-/*  not sure why phone looks bigger */
 
 /* footer ends */
+
 @media screen and (max-width: 1024px) {
   /* remove the 2 column layout from header */
   .h1 {
@@ -232,13 +236,14 @@ footer img {
     padding-top: 10px;
   }
   /* switch to verticle layout */
-  .next {
+  .header-container {
     flex-direction: column;
     flex: 0 100%;
   }
   header nav {
     justify-content: center;
   }
+  /* except make nav links horizontal */
   header nav ul {
     flex-direction: row;
     padding-bottom: 50px;
