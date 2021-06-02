@@ -41,7 +41,7 @@ body {
   display: flex;
   justify-content: center;
   flex-basis: 86%;
-  padding: 75px 0;
+  padding: 55px 0;
 }
 #mainphoto {
   max-height: 20vw;
