@@ -140,7 +140,7 @@ h4::first-letter {
   font-weight: bold;
   color: var(--third-color);
 }
-/* projects start */
+/* Work start */
 
 /* main project prominance */
 .big {
@@ -152,11 +152,11 @@ h4::first-letter {
   margin: 10px 10px;
   border: var(--primary-color) solid 3px;
 }
-/* make sub projects smaller and in-line with maind borders */
+/* make sub Work smaller and in-line with maind borders */
 .small {
   display: flex;
   justify-content: center;
-  flex-basis: 43.2%;
+  flex-basis: 43.3%;
   position: relative;
   border: solid var(--primary-color) 3px;
   margin: 10px 10px;
@@ -188,7 +188,7 @@ h4::first-letter {
   background-color: var(--third-color);
   font-size: 1vw;
 }
-/* projects style ends */
+/* Work style ends */
 
 /* footer starts */
 footer nav {
@@ -210,11 +210,14 @@ footer img {
   max-width: 5vw;
   margin-bottom: 5px;
 }
-.under {
+.beside {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  color: var(--third-color);
+  color: var(--primary-color);
+}
+.beside::before {
+  content: "6138785934";
+  padding-right: 5px;
 }
 /*  not sure why phone looks bigger */
 
@@ -244,7 +247,7 @@ footer img {
     flex: 0 90%;
     justify-content: space-around;
     padding-bottom: 20px;
-    padding-top: 55px;
+    padding-top: 20px;
   }
   #mainphoto {
     margin: 10px 0;
@@ -253,6 +256,7 @@ footer img {
   header nav ul li a {
     font-size: 2vw;
   }
+  /* center subtitle */
   .subtitle {
     right: 36vw;
   }
@@ -266,17 +270,17 @@ footer img {
     justify-content: center;
     margin: 20px 0;
   }
+  .column2 {
+    flex: 0 100%;
+  }
   /* move headers to middle make the border be under rather then --> right  */
-  .side-title h2 {
+  .side-title h2,
+  .side-title h4 {
     font-size: 22px;
     justify-content: center;
     text-align: center;
     padding: 5px 0;
     border-bottom: var(--primary-color) 3px solid;
-  }
-  /* more removeing of 2 column layout */
-  .column2 {
-    flex: 0 100%;
   }
 
   .para {
@@ -286,7 +290,7 @@ footer img {
   .text {
     font-size: 1.75vw;
   }
-
+  /* adjust spacing for footer  */
   footer nav li {
     padding: 0 20px;
   }
@@ -296,6 +300,7 @@ footer img {
   header nav ul li a {
     font-size: 2.5vw;
   }
+  /* make photo of me bigger */
   #mainphoto {
     max-height: 25vw;
   }
@@ -309,9 +314,9 @@ footer img {
   }
   /* footer images were to small */
   footer img {
-    max-width: 7.5vw;
+    max-width: 7.25vw;
   }
-
+  /* decrease spacing between images */
   footer nav li {
     padding: 0 10px;
   }
