@@ -29,7 +29,7 @@
   ## License
 
   This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.<br />
-  Copyright © 2021 [JACOB BANKS](https://github.com/jacob-banks) 
+  Copyright © 2021 [JACOB BANKS](https://github.com/jacob-banks)
 
   
 
