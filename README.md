@@ -1,5 +1,5 @@
  # My Portfolio
-https://img.shields.io/github/license/jacob-banks/my-portfolio
+![GitHub_license](https://img.shields.io/github/license/jacob-banks/my-portfolio)
   ![GitHub language count](https://img.shields.io/github/languages/count/jacob-banks/my-portfolio)
   ![GitHub top language](https://img.shields.io/github/languages/top/jacob-banks/my-portfolio)
 
