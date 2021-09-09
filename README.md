@@ -1,23 +1,45 @@
-<h1>My Portfolio</h1>
+ # My Portfolio
+![GitHub_license](https://img.shields.io/github/license/jacob-banks/my-portfolio)
+  ![GitHub language count](https://img.shields.io/github/languages/count/jacob-banks/my-portfolio)
+  ![GitHub top language](https://img.shields.io/github/languages/top/jacob-banks/my-portfolio)
 
-<h4>Built With </h4>
-Css and HTML
-<h2>Discription</h2>
-    <ul>
-        <li> Header with my name, photo, 3 intra page links, and a subtitle</li>
-        <li> 2 column main body, with a side title and a content section </li>
-        <li> Switches to 1 column on re-sizing </li>
-        <li> An about me paragraph </li>
-        <li> A work section with a large project and then smaller project</li>
-        <li> Projects link to live deploments</li>
-        <li>A footer with contact methods some are live links</li>
-    </ul>
-<h2>Screenshot</h2>
+  
+  ## Description
+   Welcome to my portfolio. Read my bio! Check out some of my projects! Reachout to contact me.
+  
+  ## Table of Contents
 
-![screenshot](/assets/images/screenshot.png)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [License](#license)
 
-<h2> Live Website</h2>
-https://jacob-banks.github.io/My-Portfolio/
 
-<h4> Contributers</h3>
-Jacob Banks
+  ## Installation
+  None, just visit my site!
+  
+  ## Usage 
+  Nav links take you to corrisponding sections. Projects link to there sites. 
+  ![screenshot1](./assets/images/screenshot.png)
+  Check out the site here: https://jacob-banks.github.io/My-Portfolio/
+
+  ## Credits
+  Jacob-Banks
+
+  ## License
+
+  This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.<br />
+  Copyright © 2021 [JACOB BANKS](https://github.com/jacob-banks)
+
+  
+
+  ## Contributing
+  Any thoughts or suggestions welcome.
+
+  ## Tests
+  N/A
+
+  ## Questions
+  Contact Jacob Banks with any questions!<br>
+  Github link: [jacob-banks](https://github.com/jacob-banks)<br>
+  Email: kobybanks@gmail.com
